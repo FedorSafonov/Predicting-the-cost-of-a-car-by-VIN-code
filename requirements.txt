@@ -3,3 +3,4 @@ pandas
 pycaret
 scikit-learn
 matplotlib
+xgboost
