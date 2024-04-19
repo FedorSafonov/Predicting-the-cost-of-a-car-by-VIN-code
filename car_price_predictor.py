@@ -1,3 +1,57 @@
+import pandas as pd
+import numpy as np
+import re
+from pycaret.classification import predict_model, load_model
+
+def extract_vin_info(vin):
+    """Извлекает информацию из VIN-кода:
+
+manufacturer         Производитель
+security_codes       Ремни безопаности / тормоза
+model                Модель
+engine               Двигатель
+check_digit          Контрольный знак
+model_year           Год
+plant_code           Завод
+serial_number        Серийный номер"""
+    
+    pattern = r"(\w{3})(\w)(\w{3})(\w)(\w)(\w)(\w)(\w{6})"
+    match = re.match(pattern, vin)
+    if match:
+        manufacturer = match.group(1)
+        security_codes = match.group(2)
+        model = match.group(3)
+        engine = match.group(4)
+        check_digit = match.group(5)
+        model_year = match.group(6)
+        plant_code = match.group(7)
+        serial_number = match.group(8)
+        return pd.Series(
+            {
+                "manufacturer": manufacturer,
+                "security_codes": security_codes,
+                "model": model,
+                "engine": engine,
+                "check_digit": check_digit,
+                "model_year": model_year,
+                "plant_code": plant_code,
+                "serial_number": serial_number,
+            }
+        )
+    else:
+        return pd.Series(
+            {
+                "manufacturer": None,
+                "security_codes": None,
+                "model": None,
+                "engine": None,
+                "check_digit": None,
+                "model_year": None,
+                "plant_code": None,
+                "serial_number": None,
+            }
+        )
+
 class CarPricePredictor:
     """Класс для предсказания цены автомобиля по VIN-коду."""
 

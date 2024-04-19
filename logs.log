@@ -7177,3 +7177,102 @@ AssertionError
 2024-04-19 17:45:20,735:INFO:Preloading libraries
 2024-04-19 17:45:20,736:INFO:Set up data.
 2024-04-19 17:45:20,739:INFO:Set up index.
+2024-04-19 20:38:09,645:INFO:Initializing load_model()
+2024-04-19 20:38:09,653:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=False)
+2024-04-19 20:38:47,398:INFO:Initializing load_model()
+2024-04-19 20:38:47,399:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=False)
+2024-04-19 20:38:47,542:INFO:Initializing predict_model()
+2024-04-19 20:38:47,542:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000023B0BF117F0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=[], transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['manufacturer', 'security_codes',
+                                             'model', 'engine', 'model_year',
+                                             'plant_code'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('rare_category_grouping',
+                 TransformerWrappe...
+                              feature_types=None, gamma=None, grow_policy=None,
+                              importance_type=None,
+                              interaction_constraints=None,
+                              learning_rate=0.07235752899247931, max_bin=None,
+                              max_cat_threshold=None, max_cat_to_onehot=None,
+                              max_delta_step=None, max_depth=11,
+                              max_leaves=None, min_child_weight=3, missing=nan,
+                              monotone_constraints=None, multi_strategy=None,
+                              n_estimators=250, n_jobs=-1,
+                              num_parallel_tree=None, random_state=100500, ...))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000023B0C08CDC0>)
+2024-04-19 20:38:47,542:INFO:Checking exceptions
+2024-04-19 20:38:47,542:INFO:Preloading libraries
+2024-04-19 20:38:47,545:INFO:Set up data.
+2024-04-19 20:38:47,566:INFO:Set up index.
+2024-04-19 20:38:49,221:INFO:Initializing predict_model()
+2024-04-19 20:38:49,221:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000023B0CE29340>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=[], transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['manufacturer', 'security_codes',
+                                             'model', 'engine', 'model_year',
+                                             'plant_code'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('rare_category_grouping',
+                 TransformerWrappe...
+                              feature_types=None, gamma=None, grow_policy=None,
+                              importance_type=None,
+                              interaction_constraints=None,
+                              learning_rate=0.07235752899247931, max_bin=None,
+                              max_cat_threshold=None, max_cat_to_onehot=None,
+                              max_delta_step=None, max_depth=11,
+                              max_leaves=None, min_child_weight=3, missing=nan,
+                              monotone_constraints=None, multi_strategy=None,
+                              n_estimators=250, n_jobs=-1,
+                              num_parallel_tree=None, random_state=100500, ...))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000023B132DD940>)
+2024-04-19 20:38:49,221:INFO:Checking exceptions
+2024-04-19 20:38:49,221:INFO:Preloading libraries
+2024-04-19 20:38:49,221:INFO:Set up data.
+2024-04-19 20:38:49,225:INFO:Set up index.
+2024-04-19 20:38:49,675:INFO:Initializing predict_model()
+2024-04-19 20:38:49,675:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000023B0CE29C70>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=[], transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['manufacturer', 'security_codes',
+                                             'model', 'engine', 'model_year',
+                                             'plant_code'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('rare_category_grouping',
+                 TransformerWrappe...
+                              feature_types=None, gamma=None, grow_policy=None,
+                              importance_type=None,
+                              interaction_constraints=None,
+                              learning_rate=0.07235752899247931, max_bin=None,
+                              max_cat_threshold=None, max_cat_to_onehot=None,
+                              max_delta_step=None, max_depth=11,
+                              max_leaves=None, min_child_weight=3, missing=nan,
+                              monotone_constraints=None, multi_strategy=None,
+                              n_estimators=250, n_jobs=-1,
+                              num_parallel_tree=None, random_state=100500, ...))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000023B132DD940>)
+2024-04-19 20:38:49,675:INFO:Checking exceptions
+2024-04-19 20:38:49,675:INFO:Preloading libraries
+2024-04-19 20:38:49,675:INFO:Set up data.
+2024-04-19 20:38:49,678:INFO:Set up index.
+2024-04-19 20:48:37,400:INFO:Initializing load_model()
+2024-04-19 20:48:37,400:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=False)
+2024-04-19 20:49:52,168:INFO:Initializing load_model()
+2024-04-19 20:49:52,168:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=False)
+2024-04-19 20:49:54,068:INFO:Initializing load_model()
+2024-04-19 20:49:54,068:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=False)
+2024-04-19 20:49:59,986:INFO:Initializing load_model()
+2024-04-19 20:49:59,986:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=False)
+2024-04-19 20:50:41,151:INFO:Initializing load_model()
+2024-04-19 20:50:41,151:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=False)
+2024-04-19 20:52:01,920:INFO:Initializing load_model()
+2024-04-19 20:52:01,920:INFO:load_model(model_name=final_model, platform=None, authentication=None, verbose=False)
+2024-04-19 21:00:56,895:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-04-19 21:00:56,895:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-04-19 21:00:56,895:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-04-19 21:00:56,895:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
