@@ -1,8 +1,8 @@
-chime==0.7.0
+chime
 matplotlib==3.7.0
-numpy==1.23.5
+numpy
 pandas==1.5.3
 pycaret==3.1.0
 scikit_learn==1.2.2
-seaborn==0.11.1
-skimpy==0.0.9
+seaborn
+skimpy
