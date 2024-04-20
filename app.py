@@ -14,7 +14,9 @@ def main():
         title_text = "Предсказание стоимости автомобиля по VIN-коду"
         vin_code_text = """Введите VIN-код:
 
-( 12-17 знаков с большой буквы, пример: 1FTGE2EW0EDA31393 )"""
+( 12-17 знаков с большой буквы, пример: 1FTGE2EW0EDA31393 )
+
+Сейчас доступно: Ford"""
         decode_vin_text = "Расшифровывать VIN"
 
     else:
@@ -22,8 +24,9 @@ def main():
         button_text = "Predict"
         title_text = "Predicting the cost of a car by VIN code"
         vin_code_text = """Enter the VIN code:
+( 12-17 characters with a capital letter, example: 1FTGE2EW0EDA31393 )
 
-( 12-17 characters with a capital letter, example: 1FTGE2EW0EDA31393 )"""
+Now available: Ford cars"""
         decode_vin_text = "Decrypt the VIN"
 
     st.title(title_text)
